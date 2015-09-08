@@ -1,0 +1,28 @@
+body {
+	background: url("http://orig07.deviantart.net/d7a4/f/2012/108/1/8/home_by_ewkn-d4wkt4e.jpg");
+	background-color: black;
+	background-size: cover;
+	color: #D1D1D1;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+ul {
+	list-style-type: none;
+	max-width: 100%;
+}
+
+li {
+	border: 2px solid #D1D1D1;
+	display: inline;
+	max-width: 15%;
+	margin: 10px;
+}
+
+#slogan {
+	font-style: italic;
+}
