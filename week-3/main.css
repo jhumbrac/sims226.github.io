@@ -1,9 +1,9 @@
 body {
-	background: url("http://orig07.deviantart.net/d7a4/f/2012/108/1/8/home_by_ewkn-d4wkt4e.jpg");
-	background-color: black;
+	background: url("http://www.simonstalenhag.se/bilderbig/busride01_1920.jpg");
+	background-color: #14201e;
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: #D1D1D1;
+	color: #14201e;
 	font-family: 'Pathway Gothic One', sans-serif;
 	text-align: center;
 }
@@ -23,7 +23,7 @@ ul {
 }
 
 li {
-	border: 2px solid #D1D1D1;
+	border: 2px solid #14201e;
 	display: inline;
 	max-width: 15%;
 	margin: 10px;
@@ -32,7 +32,7 @@ li {
 }
 
 a:link, a:visited {
-	color: #D1D1D1;
+	color: #14201e;
 	text-decoration: none;
 }
 
