@@ -1,0 +1,41 @@
+body {
+	background: url("http://www.simonstalenhag.se/bilderbig/busride01_1920.jpg");
+	background-color: #14201e;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #14201e;
+	font-family: 'Pathway Gothic One', sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-size: 5em;
+}
+
+p {
+
+}
+
+ul {
+	list-style-type: none;
+	max-width: 100%;
+	padding: 50px;
+}
+
+li {
+	border: 2px solid #14201e;
+	display: inline;
+	max-width: 15%;
+	margin: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+a:link, a:visited {
+	color: #14201e;
+	text-decoration: none;
+}
+
+#slogan {
+	font-style: italic;
+}
