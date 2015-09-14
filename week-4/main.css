@@ -1,19 +1,32 @@
 body {
-	background: url("http://www.simonstalenhag.se/bilderbig/busride01_1920.jpg");
-	background-color: #14201e;
+	background-color: #61605c;
 	background-size: cover;
 	background-repeat: no-repeat;
-	color: #14201e;
-	font-family: 'Pathway Gothic One', sans-serif;
+	color: white;
+	font-family: 'Droid Sans Mono', monospace;
 	text-align: center;
 }
 
 h1 {
+	font-family: 'Contrail One', sans-serif;
 	font-size: 5em;
+	color: #8be81a;
+}
+
+h3 {
+	font-family: 'Contrail One', sans-serif;
+	font-size: 3em;
+	color: #8be81a;
+}
+
+h5 {
+	font-family: 'Contrail One', sans-serif;
+	font-size: 1.5em;
+	color: #8be81a;
 }
 
 p {
-
+	margin: 0 auto;
 }
 
 ul {
@@ -23,7 +36,7 @@ ul {
 }
 
 li {
-	border: 2px solid #14201e;
+	border: 2px solid #8be81a;
 	display: inline;
 	max-width: 15%;
 	margin: 10px;
@@ -32,10 +45,6 @@ li {
 }
 
 a:link, a:visited {
-	color: #14201e;
+	color: #8be81a;
 	text-decoration: none;
-}
-
-#slogan {
-	font-style: italic;
 }
