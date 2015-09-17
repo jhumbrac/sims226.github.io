@@ -1,0 +1,50 @@
+body {
+	background-color: #292929;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	font-family: 'Droid Sans Mono', monospace;
+	text-align: center;
+}
+
+h1 {
+	font-family: 'Contrail One', sans-serif;
+	font-size: 5em;
+	color: #8be81a;
+}
+
+h3 {
+	font-family: 'Contrail One', sans-serif;
+	font-size: 3em;
+	color: #8be81a;
+}
+
+h5 {
+	font-family: 'Contrail One', sans-serif;
+	font-size: 1.5em;
+	color: #8be81a;
+}
+
+p {
+	margin: 0 auto;
+}
+
+ul {
+	list-style-type: none;
+	max-width: 100%;
+	padding: 50px;
+}
+
+li {
+	border: 2px solid #8be81a;
+	display: inline;
+	max-width: 15%;
+	margin: 10px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+
+a:link, a:visited {
+	color: #8be81a;
+	text-decoration: none;
+}
