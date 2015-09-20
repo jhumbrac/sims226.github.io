@@ -1,0 +1,129 @@
+/*----- Simple CSS Reset per John Humbracht -----*/
+* { margin:0; padding:0; box-sizing:border-box; }
+
+/* ----- Global Defaults ----- */
+
+body {
+	background-color: grey;
+	font-family: monospace;
+	max-width: 900px;
+}
+
+h1 {
+	color: #018D8D;
+	font-size: 5em;
+	padding: 10px;	
+	text-transform: uppercase;
+}
+
+h3 {
+	color: #EB6B02;
+	font-size: 2.5em;
+	padding: 10px 10px 0px 10px;
+	text-transform: uppercase;
+}
+
+h5 {
+	color: #01BC01;
+	font-size: 1.5em;
+	padding: 10px 10px 0px 10px;
+	text-transform: uppercase;
+}
+
+p {
+	max-width: 55em;
+	padding: 0 10px 10px 10px;
+}
+
+ul {
+	padding: 0 10px 10px 0px;
+	list-style: none;
+}
+
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*----- Header Styling -----*/
+
+header {
+	background-color: #002525;
+}
+
+/*----- Main Nav Styling -----*/
+
+nav {
+	margin: 10px;
+}
+
+nav p {
+	color: #BA5A0B;
+}
+
+.main-nav-tile {
+	background-color: #3E1C00;	
+	float: left;
+	margin: 5px;
+	max-width: 30%;
+}
+
+/*----- Main Section Styling-----*/
+
+.tier-1 {
+	background-color: #003200;
+	max-width: 70%;
+	padding: 10px;
+}
+
+.tier-1 p {
+	color: #099509;
+}
+
+.tier-1-tile {
+	border: 2px dashed red;
+	margin: 10px;
+}
+
+.tier-1-subnav {
+	background-color: #5F5429;
+	border: 1px dashed #099509;
+	color: #C4AB42;
+	margin: 10px;
+	padding: 10px;
+}
+
+/*----- Subsection Styling -----*/
+
+.tier-2 {
+	max-width: 70%;
+	padding: 10px;
+}
+
+.tier-2 h5 {
+	color: #C779FF;
+}
+
+.tier-2 p {
+	color: #DBA9FF;
+}
+
+.tier-2-tile {
+	border: 1px dashed white;
+	margin: 10px;
+}
+
+/*----- Specific Subsection Styling -----*/
+
+#about-subsection {
+	background-color: #410070;
+}
+
+#story-subsection {
+	background-color: #690000;
+}
+
+#theory-subsection {
+	background-color: #055A5A;
+}
