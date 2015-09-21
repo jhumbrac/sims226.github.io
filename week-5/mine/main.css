@@ -4,18 +4,18 @@
 /*
 font-family: 'Old Standard TT', serif;
 font-family: 'Oswald', sans-serif;
+
 */
 
 /* ----- Global Defaults ----- */
 
 body {
-	background-color: black;
+	background-color: gray;
 	font-family: sans-serif;
 }
 
 h1 {
-	color: #46B2B2;
-	font-size: 5em;
+	font-size: 6em;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -29,7 +29,6 @@ h3 {
 }
 
 h5 {
-	color: #01BC01;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 400;
 	font-size: 1.5em;
@@ -47,69 +46,77 @@ ul {
 }
 
 /*----- Micro clearfix from https://css-tricks.com/snippets/css/clear-fix/ -----*/
+
 .group:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/*----- Flexbox, because I'm going to murder someone trying to center floated divs -----*/
+/*----- Flexbox -----*/
 
+/*
 .flex-container {
   display: flex;  
-  justify-content: space-between;
-  /* Safari */
-  display: -webkit-flex;
-  -webkit-justify-content: space-between;
-}
+  justify-content: space-around;
+} 
+*/
 
 /*----- Header Styling -----*/
 
 header {
-	background-color: #002525;
-	padding: 5% 15%;
+	background-color: #077070;
+	padding: 15%;
 	text-align: center;
+}
+
+header h1 {
+	border: 2px dashed white;
+	color: #46B2B2;
 }
 
 /*----- Main Nav Styling -----*/
 
 nav {
-	background-color: red;
-	padding: 1% 5% 1% 5%;
+	background-color: #EB6C02;
+	padding: 15%;
 }
 
-nav h3, p {
-	color: #EB6B02;
+nav h3 {
+	border: 2px dashed white;
+	color: #EB6C02;
 }
 
 .main-nav-tile {
-	background-color: #3E1C00;	
+	background-color: #693000;	
 	float: left;
-	min-height: 100px;
+	margin: 10px;
+	height: 100px;
 	padding: 10px;
+	text-align: center;
 	width: 30%;
 }
 
 /*----- Main Section Styling-----*/
 
 .tier-1 {
-	background-color: #003200;
+	margin: 0 auto;
 	max-width: 70%;
 	padding: 10px;
 }
 
-.tier-1 p {
+.tier-1 h5, p {
 	color: #099509;
 }
 
 .tier-1-tile {
-	border: 2px dashed red;
+	background-color: #003200;
 	margin: 10px;
+	padding: 10px;
 }
 
 .tier-1-subnav {
 	background-color: #5F5429;
-	border: 1px dashed #099509;
 	color: #C4AB42;
 	margin: 10px;
 	padding: 10px;
@@ -118,33 +125,51 @@ nav h3, p {
 /*----- Subsection Styling -----*/
 
 .tier-2 {
+	margin: 0 auto;
 	max-width: 70%;
 	padding: 10px;
 }
 
 .tier-2 h5 {
+	border: 2px dashed white;
 	color: #C779FF;
+	margin-bottom: 10px;
 }
 
 .tier-2 p {
+	border: 2px dashed white;
 	color: #DBA9FF;
 }
 
 .tier-2-tile {
-	border: 1px dashed white;
 	margin: 10px;
+	padding: 10px;
 }
 
-/*----- Specific Subsection Styling -----*/
+/*----- Subsection Styling -----*/
 
 #about-subsection {
-	background-color: #410070;
+
 }
 
 #story-subsection {
-	background-color: #690000;
+
 }
 
 #theory-subsection {
+
+}
+
+/*----- Subsection Detail Styling -----*/
+
+#anthony-sims-bio, #john-dower-bio, #stevie-ray-bio {
+	background-color: #410070;
+}
+
+#summary, #backstory, #screenplay {
+	background-color: #690000;
+}
+
+#subcreations, #genre, #slate {
 	background-color: #055A5A;
 }
