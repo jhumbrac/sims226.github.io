@@ -1,38 +1,44 @@
 /*----- Simple CSS Reset per John Humbracht -----*/
 * { margin:0; padding:0; box-sizing:border-box; }
 
+/*
+font-family: 'Old Standard TT', serif;
+font-family: 'Oswald', sans-serif;
+*/
+
 /* ----- Global Defaults ----- */
 
 body {
-	background-color: grey;
-	font-family: monospace;
-	max-width: 900px;
+	background-color: black;
+	font-family: sans-serif;
 }
 
 h1 {
-	color: #018D8D;
+	color: #46B2B2;
 	font-size: 5em;
-	padding: 10px;	
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
 h3 {
-	color: #EB6B02;
 	font-size: 2.5em;
-	padding: 10px 10px 0px 10px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
 	text-transform: uppercase;
 }
 
 h5 {
 	color: #01BC01;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
 	font-size: 1.5em;
-	padding: 10px 10px 0px 10px;
 	text-transform: uppercase;
 }
 
 p {
+	font-family: 'Old Standard TT', serif;
 	max-width: 55em;
-	padding: 0 10px 10px 10px;
 }
 
 ul {
@@ -40,33 +46,48 @@ ul {
 	list-style: none;
 }
 
+/*----- Micro clearfix from https://css-tricks.com/snippets/css/clear-fix/ -----*/
 .group:after {
   content: "";
   display: table;
   clear: both;
 }
 
+/*----- Flexbox, because I'm going to murder someone trying to center floated divs -----*/
+
+.flex-container {
+  display: flex;  
+  justify-content: space-between;
+  /* Safari */
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+}
+
 /*----- Header Styling -----*/
 
 header {
 	background-color: #002525;
+	padding: 5% 15%;
+	text-align: center;
 }
 
 /*----- Main Nav Styling -----*/
 
 nav {
-	margin: 10px;
+	background-color: red;
+	padding: 1% 5% 1% 5%;
 }
 
-nav p {
-	color: #BA5A0B;
+nav h3, p {
+	color: #EB6B02;
 }
 
 .main-nav-tile {
 	background-color: #3E1C00;	
 	float: left;
-	margin: 5px;
-	max-width: 30%;
+	min-height: 100px;
+	padding: 10px;
+	width: 30%;
 }
 
 /*----- Main Section Styling-----*/
